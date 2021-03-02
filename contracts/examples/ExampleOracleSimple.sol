@@ -1,8 +1,8 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapFactory.sol';
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapPair.sol';
-import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
+import '../interfaces/IIgniswapFactory.sol';
+import '../interfaces/IIgniswapPair.sol';
+import '../libraries/FixedPoint.sol';
 
 import '../libraries/IgniswapOracleLibrary.sol';
 import '../libraries/IgniswapLibrary.sol';

@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapCallee.sol';
+import '../interfaces/IIgniswapCallee.sol';
 
 import '../libraries/IgniswapLibrary.sol';
 import '../interfaces/V1/IIgniswapV1Factory.sol';

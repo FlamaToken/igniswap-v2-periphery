@@ -1,9 +1,9 @@
 pragma solidity >=0.5.0;
 
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapPair.sol';
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapFactory.sol';
-import '@uniswap/lib/contracts/libraries/Babylonian.sol';
-import '@uniswap/lib/contracts/libraries/FullMath.sol';
+import '../interfaces/IIgniswapPair.sol';
+import '../interfaces/IIgniswapFactory.sol';
+import '../libraries/Babylonian.sol';
+import '../libraries/FullMath.sol';
 
 import './SafeMath.sol';
 import './IgniswapLibrary.sol';

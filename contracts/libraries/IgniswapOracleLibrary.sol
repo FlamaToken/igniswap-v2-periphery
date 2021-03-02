@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapPair.sol';
-import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
+import '../interfaces/IIgniswapPair.sol';
+import '../libraries/FixedPoint.sol';
 
 // library with helper methods for oracles that are concerned with computing average prices
 library IgniswapOracleLibrary {

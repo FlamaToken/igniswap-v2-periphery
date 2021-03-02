@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IIgniswapFactory.sol';
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import './interfaces/IIgniswapFactory.sol';
+import './libraries/TransferHelper.sol';
 
 import './libraries/IgniswapLibrary.sol';
 import './interfaces/IIgniswapRouter01.sol';
